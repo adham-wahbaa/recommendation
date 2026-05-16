@@ -8,9 +8,32 @@ A complete full-stack AI-powered e-commerce recommendation platform that tracks 
 
 ## 🚀 Quick Start
 
+### 1. Clone the repository
 ```bash
-cd c:\Users\domix\Desktop\NTI\recommendation
-.venv\Scripts\activate
+git clone https://github.com/adham-wahbaa/recommendation.git
+cd recommendation
+```
+
+### 2. Create & activate virtual environment
+```bash
+python -m venv .venv
+.venv\Scripts\Activate.ps1       # PowerShell (Windows)
+# or
+.venv\Scripts\activate.bat       # CMD (Windows)
+# or
+source .venv/bin/activate        # macOS / Linux
+```
+
+> **Note:** If you get an execution policy error on PowerShell, run:
+> `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned`
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the app
+```bash
 streamlit run app.py
 ```
 
