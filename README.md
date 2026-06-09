@@ -175,4 +175,4 @@ recommendation/
 
 ## 👤 Author
 
-University Graduation Project — Machine Learning, Recommendation Systems, Big Data, Full Stack Python
+domix — Machine Learning, Recommendation Systems, Big Data, Full Stack Python
